@@ -6,7 +6,7 @@ function AboutPhotoCard() {
   const glitch = useGlitch();
   return (
     <div
-      className="md:w-[50vw]    bg-secondary-shaded rounded-lg  md:pb-4  -translate-y-20
+      className="md:w-[50vw]    bg-secondary-shaded rounded-lg  md:pb-4  -translate-y-10
        md:-translate-y-0 "
     >
       <div className="transform rotate-6 ">

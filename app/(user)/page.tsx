@@ -27,11 +27,11 @@ function HomePage() {
       </section> */}
       <Hero />
 
-      <div className="md-mx-10 mt-[120px] md:mt-[650px] md:h-[800px]  md:overflow-hidden">
+      <div className="md:-mx-10 mt-[120px] md:mt-[650px] md:h-[800px]  md:overflow-hidden">
         <About />
       </div>
 
-      <div className="mt-[50px] md:mt-0 ">
+      <div className="mt-[10px] md:mt-0 ">
         <Skills skills={skills} />
       </div>
 
