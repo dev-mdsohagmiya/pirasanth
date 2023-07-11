@@ -12,7 +12,7 @@ const AnimatedText = () => {
             </p>
           </div>
           <p className="text-[20px] md:text-[28px] lg:text-[32px] pt-6 lg:pt-14 text-white">
-            I'm <span className="text-primary">Pirasanth</span> - but call me{" "}
+            I'm <span className="text-primary">Pirasanth</span> - but call me
             <span className="text-primary">PJ.</span>
           </p>
         </div>
