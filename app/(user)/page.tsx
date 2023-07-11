@@ -14,7 +14,7 @@ import Header from "../../components/Header";
 
 function HomePage() {
   return (
-    <div className=" mx-10 justify-center">
+    <div className=" mx-10 justify-center ">
       {/* <section id="about" className="pt-20 pb-10  ">
         <div className="md:grid gap-4 grid-cols-2 md:right-0 md:w-screen md:absolute">
           <div className="relative ">

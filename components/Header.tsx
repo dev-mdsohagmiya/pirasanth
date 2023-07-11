@@ -91,7 +91,7 @@ export default function Header() {
             </button>
             {closeButton && (
               <button
-                className="outline-none mobile-menu-button absolute top-4 right-24 z-50"
+                className="outline-none mobile-menu-button absolute top-4  z-50"
                 type="button"
                 onClick={() => NavToggler()}
               >
