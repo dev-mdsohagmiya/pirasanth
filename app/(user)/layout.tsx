@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
+import Sidebar from "../../components/Sidebar";
 
 export const metadata = {
   title: "Next.js",
@@ -22,8 +23,8 @@ export default function RootLayout({
       </head>
 
       <body className="bg-secondary mx-auto">
-        <Header />
         {/* <Navigation /> */}
+
         {children}
       </body>
     </html>

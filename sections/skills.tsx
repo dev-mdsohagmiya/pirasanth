@@ -18,7 +18,10 @@ type Props = {
 function Skills({ skills }: Props) {
   const glitch = useGlitch();
   return (
-    <section id="skills" className="bg-secondary-shaded -mx-10 relative top-24">
+    <section
+      id="skills"
+      className="bg-secondary-shaded md-mx-0 -mx-10 relative top-24"
+    >
       <div className="max-w-7xl mx-auto">
         <Image
           className="md:ml-12 relative -top-20 max-w-7xl mx-auto"
