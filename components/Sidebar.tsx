@@ -6,10 +6,11 @@ type SidebarProps = {
   value: String;
 };
 const Sidebar = ({ value }: SidebarProps) => {
+  const [translate, setTranslate] = useState(value);
   return (
     <div className="md:hidden ">
       <div
-        className={`fixed inset-0 w-[calc(95%-4.5rem)] translate-x-[${value}] border-r  shadow-xl transition duration-300 peer-checked:translate-x-0 lg:static lg:w-auto lg:translate-x-0 lg:border-r-0 lg:shadow-none bg-secondary `}
+        className={`fixed inset-0 w-[calc(95%-4.5rem)] translate-x-[${value}] border-r  shadow-xl transition duration-300 peer-checked:translate-x-0  bg-secondary `}
       >
         <div className="justify-center flex pt-24 ">
           <Image
